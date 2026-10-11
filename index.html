@@ -3,10 +3,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>THE DEV | Software, dados e integração de WhatsApp para empresas</title>
-  <meta name="description" content="THE DEV TECNOLOGIA LTDA: desenvolvimento de software sob encomenda, tratamento de dados e soluções de atendimento e automação via WhatsApp para empresas.">
+  <title>THE DEV | Software sob medida para pequenas e médias empresas</title>
+  <meta name="description" content="THE DEV TECNOLOGIA LTDA: desenvolvimento de software sob medida, automação de processos e de atendimento, integrações entre sistemas e consultoria em TI para pequenas e médias empresas.">
   <link rel="canonical" href="https://thedev.com.br/">
-  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta name="theme-color" content="#fbfbfa" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0e1110" media="(prefers-color-scheme: dark)">
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
   <link rel="stylesheet" href="style.css">
@@ -15,90 +16,156 @@
   <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
   <header class="site-header">
     <div class="wrap">
-      <a class="brand" href="index.html">
-        <picture>
-          <source srcset="assets/logo-on-dark.svg" media="(prefers-color-scheme: dark)">
-          <img src="assets/logo-on-light.svg" alt="THE DEV" width="291" height="56">
-        </picture>
+      <a class="brand" href="index.html" aria-current="page">
+        <img src="assets/favicon.svg" alt="THE DEV, início" width="42" height="42">
       </a>
       <nav class="site-nav" aria-label="Principal">
         <ul>
-        <li><a href="index.html" aria-current="page">Início</a></li>
-        <li><a href="privacidade.html">Privacidade</a></li>
-        <li><a href="termos.html">Termos de uso</a></li>
-        <li><a href="exclusao-de-dados.html">Exclusão de dados</a></li>
+          <li><a href="index.html" aria-current="page">Início</a></li>
+          <li><a href="privacidade.html">Privacidade</a></li>
+          <li><a href="termos.html">Termos de uso</a></li>
+          <li><a href="exclusao-de-dados.html">Exclusão de dados</a></li>
         </ul>
       </nav>
     </div>
   </header>
   <main id="conteudo">
-    <div class="wrap">
-      <section class="hero">
-        <h1>Software sob medida e integração de WhatsApp para empresas</h1>
-        <p class="lead">A THE DEV desenvolve software, trata dados e integra sistemas para pequenas e médias empresas. Construímos soluções de atendimento e automação via WhatsApp que funcionam com o número da própria empresa.</p>
-      </section>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="wrap">
+        <picture>
+          <source srcset="assets/logo-on-dark.svg" media="(prefers-color-scheme: dark)">
+          <img class="hero-logo" src="assets/logo-on-light.svg" alt="THE DEV" width="582" height="112">
+        </picture>
+        <p class="eyebrow">&gt; software para pequenas e médias empresas</p>
+        <h1 id="hero-title">Software sob medida para a sua empresa trabalhar melhor<span class="cursor" aria-hidden="true"></span></h1>
+        <p class="lead">Desenvolvemos sistemas, automatizamos processos e conectamos as ferramentas que a sua empresa já usa, com atenção ao dia a dia de quem vai usar.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="#contato">Fale com a gente</a>
+          <a class="btn btn-ghost" href="#servicos">Conheça os serviços</a>
+        </div>
+      </div>
+    </section>
 
-      <section aria-labelledby="atividades">
-        <h2 id="atividades">O que fazemos</h2>
-        <ul class="cards">
-          <li>
-            <h3>Desenvolvimento de software</h3>
-            <p>Software sob encomenda e licenciamento de programas desenvolvidos pela THE DEV.</p>
+    <section class="section" id="servicos" aria-labelledby="servicos-title">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">// serviços</p>
+          <h2 id="servicos-title">O que fazemos</h2>
+          <p>Da primeira conversa ao sistema em uso, cuidamos de cada parte do software da sua empresa.</p>
+        </div>
+        <ul class="grid grid-3">
+          <li class="card">
+            <span class="num">01</span>
+            <h3>Desenvolvimento sob medida</h3>
+            <p>Sistemas web e aplicações feitos para o processo da sua empresa, e não o contrário.</p>
           </li>
-          <li>
-            <h3>Dados e aplicações</h3>
-            <p>Tratamento de dados, provedores de serviços de aplicação e hospedagem dos sistemas que desenvolvemos.</p>
+          <li class="card">
+            <span class="num">02</span>
+            <h3>Automação de processos</h3>
+            <p>Tarefas repetitivas, planilhas e etapas manuais transformadas em fluxos automáticos e confiáveis.</p>
           </li>
-          <li>
+          <li class="card">
+            <span class="num">03</span>
+            <h3>Automação de atendimento</h3>
+            <p>Atendimento automatizado em canais de mensagem, para responder dúvidas frequentes e organizar pedidos.</p>
+          </li>
+          <li class="card">
+            <span class="num">04</span>
+            <h3>Integrações entre sistemas</h3>
+            <p>Conexão entre ERPs, lojas, emissores de nota, planilhas e outras plataformas, para os dados circularem sem retrabalho.</p>
+          </li>
+          <li class="card">
+            <span class="num">05</span>
+            <h3>Dados e hospedagem</h3>
+            <p>Tratamento de dados e hospedagem dos sistemas que desenvolvemos, para a sua empresa não precisar cuidar de servidores.</p>
+          </li>
+          <li class="card">
+            <span class="num">06</span>
             <h3>Consultoria em TI</h3>
-            <p>Apoio na escolha, na integração e na operação de sistemas de tecnologia da informação.</p>
+            <p>Apoio para escolher ferramentas, organizar a infraestrutura e decidir o que vale automatizar.</p>
           </li>
         </ul>
-      </section>
+      </div>
+    </section>
 
-      <section aria-labelledby="whatsapp" class="content">
-        <h2 id="whatsapp">Integração de WhatsApp para empresas</h2>
-        <p>A THE DEV integra-se à plataforma WhatsApp Business da Meta. A empresa cliente conecta o próprio número de WhatsApp Business aos nossos aplicativos pelo fluxo oficial de cadastro da Meta e, quando for o caso, continua usando o aplicativo WhatsApp Business no celular ao mesmo tempo (coexistência).</p>
-        <p>Sobre essa integração desenvolvemos soluções de atendimento e automação via WhatsApp, como assistentes e bots para atender os clientes da empresa. As soluções estão em desenvolvimento e são oferecidas a empresas, mediante contratação.</p>
-        <p>O número continua sendo da empresa cliente, que pode desconectá-lo a qualquer momento. Os custos de mensagens da Meta são cobrados pela Meta diretamente da empresa. Veja como tratamos os dados na <a href="privacidade.html">Política de Privacidade</a>.</p>
-      </section>
+    <section class="section section-alt" aria-labelledby="processo-title">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">// como trabalhamos</p>
+          <h2 id="processo-title">Do problema ao sistema em uso</h2>
+        </div>
+        <ol class="grid steps">
+          <li>
+            <h3>Diagnóstico</h3>
+            <p>Entendemos o processo atual, as ferramentas e o que mais toma tempo da equipe.</p>
+          </li>
+          <li>
+            <h3>Proposta</h3>
+            <p>Escopo, prazo e investimento por escrito, começando pelo que traz resultado mais cedo.</p>
+          </li>
+          <li>
+            <h3>Desenvolvimento</h3>
+            <p>Entregas curtas e frequentes, para a sua equipe testar e ajustar o rumo cedo.</p>
+          </li>
+          <li>
+            <h3>Operação e evolução</h3>
+            <p>Implantação, acompanhamento e melhorias conforme o negócio muda.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
 
-      <section aria-labelledby="fale-conosco" class="content">
-        <h2 id="fale-conosco">Fale com a THE DEV</h2>
-        <p>Escreva para <a href="mailto:alvaro.thedev@gmail.com">alvaro.thedev@gmail.com</a> ou ligue para <a href="tel:+5566999099718">+55 (66) 99909-9718</a>.</p>
-      </section>
-    </div>
+    <section class="section" id="contato" aria-labelledby="contato-title">
+      <div class="wrap">
+        <div class="contact">
+          <div>
+            <p class="eyebrow">// contato</p>
+            <h2 id="contato-title">Vamos conversar sobre o seu projeto<span class="cursor" aria-hidden="true"></span></h2>
+            <p>Conte o que a sua empresa precisa. Respondemos por e-mail ou telefone.</p>
+          </div>
+          <ul class="contact-list">
+            <li><span>e-mail</span><a href="mailto:alvaro.thedev@gmail.com">alvaro.thedev@gmail.com</a></li>
+            <li><span>telefone</span><a href="tel:+5566999099718">+55 (66) 99909-9718</a></li>
+            <li><span>endereço</span><a href="#footer-address">Campinápolis/MT, Brasil</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
   </main>
   <footer class="site-footer">
     <div class="wrap">
-      <section aria-labelledby="footer-company">
-        <h2 id="footer-company">THE DEV TECNOLOGIA LTDA</h2>
-        <p>Nome fantasia: THE DEV</p>
-        <p>CNPJ: 46.455.958/0001-78</p>
-      </section>
-      <section aria-labelledby="footer-address">
-        <h2 id="footer-address">Endereço</h2>
-        <address>
-          Rua Laudelino Domingos de Araujo, 600<br>
-          Setor Cristalina, Campinápolis/MT<br>
-          CEP 78630-000, Brasil
-        </address>
-      </section>
-      <section aria-labelledby="footer-contact">
-        <h2 id="footer-contact">Contato</h2>
-        <address>
-          <a href="mailto:alvaro.thedev@gmail.com">alvaro.thedev@gmail.com</a><br>
-          <a href="tel:+5566999099718">+55 (66) 99909-9718</a>
-        </address>
-      </section>
-      <nav aria-labelledby="footer-legal">
-        <h2 id="footer-legal">Documentos</h2>
-        <ul>
-          <li><a href="privacidade.html">Política de Privacidade</a></li>
-          <li><a href="termos.html">Termos de Uso</a></li>
-          <li><a href="exclusao-de-dados.html">Exclusão de Dados</a></li>
-        </ul>
-      </nav>
+      <div class="footer-grid">
+        <section aria-labelledby="footer-company">
+          <h2 id="footer-company">Empresa</h2>
+          <p><strong>THE DEV TECNOLOGIA LTDA</strong></p>
+          <p>Nome fantasia: THE DEV</p>
+          <p>CNPJ: 46.455.958/0001-78</p>
+        </section>
+        <section aria-labelledby="footer-address">
+          <h2 id="footer-address">Endereço</h2>
+          <address>
+            Rua Laudelino Domingos de Araujo, 600<br>
+            Setor Cristalina, Campinápolis/MT<br>
+            CEP 78630-000, Brasil
+          </address>
+        </section>
+        <section aria-labelledby="footer-contact">
+          <h2 id="footer-contact">Contato</h2>
+          <address>
+            <a href="mailto:alvaro.thedev@gmail.com">alvaro.thedev@gmail.com</a><br>
+            <a href="tel:+5566999099718">+55 (66) 99909-9718</a>
+          </address>
+        </section>
+        <nav aria-labelledby="footer-legal">
+          <h2 id="footer-legal">Documentos</h2>
+          <ul>
+            <li><a href="privacidade.html">Política de Privacidade</a></li>
+            <li><a href="termos.html">Termos de Uso</a></li>
+            <li><a href="exclusao-de-dados.html">Exclusão de Dados</a></li>
+          </ul>
+        </nav>
+      </div>
+      <p class="footer-bottom">&copy; 2026 THE DEV TECNOLOGIA LTDA. CNPJ 46.455.958/0001-78.</p>
     </div>
   </footer>
 </body>

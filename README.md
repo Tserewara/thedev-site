@@ -9,7 +9,7 @@ Site institucional estático da THE DEV TECNOLOGIA LTDA. HTML e CSS puros, sem b
 | `termos.html` | Terms of Service URL |
 | `exclusao-de-dados.html` | Data Deletion Instructions URL |
 
-O cabeçalho e o rodapé (dados da empresa) se repetem em todas as páginas: ao mudar um, mude em todos. Logo e ícones ficam em `assets/` (pixel art: exiba o logo em 56 px de altura ou múltiplos inteiros disso).
+O cabeçalho e o rodapé (dados da empresa) se repetem em todas as páginas: ao mudar um, mude em todos. Logo e ícones ficam em `assets/` (pixel art: exiba o logo em 56 px de altura ou múltiplos inteiros disso). A seção "Integrações com plataformas de terceiros" da política de privacidade e a seção de integrações da página de exclusão são as que a Meta procura.
 
 ## Como publicar no GitHub Pages
 
